@@ -1,3 +1,8 @@
+// import './App.css';
+// import {fetchWeather} from './api'
+
+import React, { useState } from 'react';
+
 export const App = () => {
   return (
     <div
