@@ -1,9 +1,9 @@
 // import './App.css';
-// import {fetchWeather} from './api'
+import { fetchWeather } from './api';
 import React, { useState } from 'react';
 import { WeatherCard } from './WeatherCard';
 
-function App() {
+export function App() {
   const [city, setCity] = useState('');
   const [weather, setWeather] = useState(null);
   const [error, setError] = useState('');
@@ -43,5 +43,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

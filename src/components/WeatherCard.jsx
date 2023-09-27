@@ -1,6 +1,6 @@
 import React from 'react';
 
-const WeatherCard = ({ weather }) => {
+export const WeatherCard = ({ weather }) => {
   return (
     <div className="weather-card">
       <div className="card-header">
@@ -50,5 +50,3 @@ const WeatherCard = ({ weather }) => {
     </div>
   );
 };
-
-export default WeatherCard;
