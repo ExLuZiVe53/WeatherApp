@@ -1,8 +1,7 @@
 // import './App.css';
 // import {fetchWeather} from './api'
-// import WetherCard from '.'
-
 import React, { useState } from 'react';
+import { WeatherCard } from './WeatherCard';
 
 function App() {
   const [city, setCity] = useState('');
