@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import { fetchWeather } from './api';
 import React, { useState } from 'react';
 import { WeatherCard } from './WeatherCard';
