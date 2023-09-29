@@ -8,8 +8,8 @@ export async function fetchWeather(city, setError) {
   try {
     const response = await axios.get(url);
     setError('');
-    console.log('response :>> ', response);
-    return response.data;
+
+    return response;
   } catch (error) {
     setError('City Not Found!');
     return error;
