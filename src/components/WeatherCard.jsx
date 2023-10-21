@@ -6,7 +6,7 @@ export const WeatherCard = ({ weather }) => {
       <div className="card-header">
         <div>
           <p className="weather-city">
-            {weather ? weather.name + '' + weather.sys.country : '-'}
+            {weather ? weather.name + ' ' + weather.sys.country : '-'}
           </p>
           <p className="weather-description">
             {weather ? weather.weather[0].description : '-'}

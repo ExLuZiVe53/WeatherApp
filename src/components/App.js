@@ -22,8 +22,6 @@ export function App() {
     }
   };
 
-  console.log(handleSubmit());
-
   return (
     <div className="App">
       <h1 className="app_heading">Weather App</h1>
